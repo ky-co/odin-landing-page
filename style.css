@@ -2,5 +2,67 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    
+
 }
+
+/* ----------------------------------------- Shared parameters ----------------------------------------- */
+
+.header,
+.first,
+.footer {
+    background-color: #1f2937;
+
+}
+
+.link,
+.first-subtext,
+caption,
+.small-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* ----------------------------------------- Header section parameters ----------------------------------------- */
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+/* ----------------------------------------- First section parameters ----------------------------------------- */
+
+.first-maintext {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+/* ----------------------------------------- Second section parameters ----------------------------------------- */
+
+.second-head {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+/* ----------------------------------------- Third section parameters ----------------------------------------- */
+
+.third {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+/* ----------------------------------------- Fourth section parameters ----------------------------------------- */
+
+button,
+.box-text {
+    color: #e5e7eb;
+    background-color: #3882f6;
+}
+
+/* ----------------------------------------- Footer section parameters ----------------------------------------- */
