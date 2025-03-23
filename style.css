@@ -47,6 +47,8 @@ caption,
 .first {
     display: flex;
     justify-content: space-evenly;
+    text-wrap: wrap;
+    flex-shrink: 0;
 }
 
 .first-block{
