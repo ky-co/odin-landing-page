@@ -2,7 +2,9 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 /* ----------------------------------------- Shared parameters ----------------------------------------- */
@@ -24,17 +26,48 @@ caption,
 
 /* ----------------------------------------- Header section parameters ----------------------------------------- */
 
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
 }
 
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+
 /* ----------------------------------------- First section parameters ----------------------------------------- */
+
+.first {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first-block{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
 
 .first-maintext {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+}
+
+.first-subtext {
+    text-wrap: wrap;
+}
+
+.first-picture {
+    height: auto;
+    width: 450px;
 }
 
 /* ----------------------------------------- Second section parameters ----------------------------------------- */
