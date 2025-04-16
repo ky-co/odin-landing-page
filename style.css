@@ -148,19 +148,21 @@ button,
     border-radius: 12px;
     display: flex;
     flex-direction: column;
-    width: 500px;
-    height: 75px
+    width: 1000px;
+    height: 150px;
+    
 }
 
 button {
     
     align-items: flex-end;
-    border-radius: 12px;
+    border-radius: 5px;
     align-self: flex-end;
 }
 
 .box-text {
     font-weight: 700;
+    border-radius: 12px;
 
 }
 
